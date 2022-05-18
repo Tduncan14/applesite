@@ -16,7 +16,19 @@
 }
 
 
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
 /* 
+
+
 
 
 
@@ -69,9 +81,63 @@ html{
 }
 
 
+.logo i {
+    font-size:10rem;
+    color:rgba(0,0,0,0.8);
+
+}
+
 
 /* end of logo */
 
 
+/* navbar */
+.navbar{
+    position:absolute;
+    top:3rem;
+    right:3rem;
 
+}
+
+.navbar-link{
+    font-size:2rem;
+    display:inline-block;
+    margin: 0 3rem;
+    color:var(--black-color);
+    transition: transform 0.5s;
+}
+
+
+.navbar-link:hover{
+    transform:scale(1.5);
+}
+
+
+
+
+
+.section-1-banner{
+    flex-direction: column;
+}
+
+.section-1-banner h1{
+    font-size:13rem;
+    font-weight:300;
+    text-transform:uppercase;
+    letter-spacing:0.5rem;
+}
+
+
+.section-1-banner p {
+    font-size:4rem;
+    font-weight:400;
+    letter-spacing:.1rem;
+    margin:6rem 0 4rem 0;
+}
+
+
+.section-1-banner span{
+    font-size:3rem;
+    margin-bottom:5rem;
+}
 /* end of section1 */
